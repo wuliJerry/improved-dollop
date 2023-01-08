@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+        <style>
+            .thumbnail {
+                width: 300px;
+                /* only width changes, height changes automatically vice versa */
+                display: block;
+
+            }
+
+            .search-bar {
+                border-radius: 20000px;
+                border-width: 1px;
+                border-style: solid;
+                padding-left: 10px;
+            }
+
+            .video-title {
+                width: 300px;
+            }
+
+            .video-author,
+            .video-stats {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+
+        <p class="video-stats">
+            3.4M view &#183; 6 months ago
+        </p>
+    </body>
+</html>
+
+<!-- block element(takes whole line, like p) -->
+<!-- inline-block element (only takes space it needs, input. img)-->
+<!-- inline element(inline text element, strong) -->
