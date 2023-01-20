@@ -7,8 +7,8 @@
 }
 
 .left-session {
-    background-color: lightblue;
-    width: 150px;
+    display: flex;
+    align-items: center;
 }
 
 .middle-session {
@@ -26,4 +26,14 @@
 
 .search-bar {
 
+}
+
+.hamburger-menu {
+    margin-left: 24px;
+    margin-right: 20px;
+    height: 24px;
+}
+
+.youtube-logo {
+    height: 20px;
 }
